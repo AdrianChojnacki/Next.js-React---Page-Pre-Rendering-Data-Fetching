@@ -3,7 +3,6 @@ export async function getAllEvents() {
     "https://nextjs-2-801df-default-rtdb.firebaseio.com/Events.json"
   );
   const data = await response.json();
-  console.log(data);
 
   const events = [];
 
